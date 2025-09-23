@@ -1,6 +1,13 @@
 # vhs-vapourizer
 Lossless VHS restoration with VapourSynth → Y4M piping → FFV1/ProRes, featuring QTGMC deinterlace, NNEDI3 upscaling, rich progress UI, profiling, and safe shutdown.
 
+
+![Screenshot 2025-09-23 125315](https://github.com/user-attachments/assets/6dc7d42a-7257-4434-a6ea-7532bbc289f2)
+
+
+
+
+
 ## VHS Y4M Pipeline
 
 Lossless, reproducible VHS processing that routes VapourSynth frames over **Y4M** into FFmpeg for **FFV1 (10-bit 4:2:2)** or **ProRes 422 HQ** output. Includes robust progress/ETA UI, index caching, graceful teardown, and optional GPU and performance profiling.
