@@ -7,7 +7,7 @@ OUTPUT_DIRECTORY_PATH = r"output\path\to\final\file.mkv"
 # ============================================================================
 # SIMPLE TEST/FULL MODE CONTROL - ONLY CHANGE THESE TWO LINES
 # ============================================================================
-TEST_MODE = True          # ← CHANGE THIS: True = test mode, False = full processing  
+TEST_MODE = False          # ← CHANGE THIS: True = test mode, False = full processing  
 TEST_FRAME_COUNT = 1000    # ← CHANGE THIS: Number of frames to process in test mode
 USE_PRORES_OUTPUT = False # ← CHANGE THIS: True = ProRes 422 HQ, False = FFV1 (default)
 
